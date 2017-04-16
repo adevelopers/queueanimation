@@ -54,6 +54,7 @@
 		71868F1C1EA3D023001FBCFB /* QueueAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				71AA7F7F1EA3D553004EC3CB /* Modules */,
 				71868F1D1EA3D023001FBCFB /* AppDelegate.swift */,
 				71868F1F1EA3D023001FBCFB /* ViewController.swift */,
 				71868F211EA3D023001FBCFB /* Main.storyboard */,
@@ -62,6 +63,21 @@
 				71868F291EA3D023001FBCFB /* Info.plist */,
 			);
 			path = QueueAnimation;
+			sourceTree = "<group>";
+		};
+		71AA7F7F1EA3D553004EC3CB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				71AA7F801EA3D56A004EC3CB /* Queue */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		71AA7F801EA3D56A004EC3CB /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +320,7 @@
 				71868F2E1EA3D023001FBCFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
